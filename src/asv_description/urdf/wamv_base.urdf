@@ -4,7 +4,7 @@
   <link name="dummy_link_fix_mesh_origin">
     <visual>
       <geometry>
-        <mesh filename="file:///workspaces/ros2_devcontainer/src/asv_description/models/WAM-V-Base/mesh/WAM-V-Base.dae"/>
+        <mesh filename="package://asv_description/models/WAM-V-Base/mesh/WAM-V-Base.dae"/>
       </geometry>
     </visual>
     <!-- Main float -->

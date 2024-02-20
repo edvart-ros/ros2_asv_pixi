@@ -30,4 +30,9 @@ def generate_launch_description():
             output='screen',
             parameters=[{'robot_description': robot_desc}],
             arguments=[urdf]),
+        Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz2',
+            output='screen')
     ])
