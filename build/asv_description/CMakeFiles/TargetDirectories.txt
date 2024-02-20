@@ -1,6 +1,0 @@
-C:/Users/edvar/programming/ros2_ws/build/asv_description/CMakeFiles/uninstall.dir
-C:/Users/edvar/programming/ros2_ws/build/asv_description/CMakeFiles/asv_description_uninstall.dir
-C:/Users/edvar/programming/ros2_ws/build/asv_description/CMakeFiles/RUN_TESTS.dir
-C:/Users/edvar/programming/ros2_ws/build/asv_description/CMakeFiles/INSTALL.dir
-C:/Users/edvar/programming/ros2_ws/build/asv_description/CMakeFiles/ALL_BUILD.dir
-C:/Users/edvar/programming/ros2_ws/build/asv_description/CMakeFiles/ZERO_CHECK.dir
