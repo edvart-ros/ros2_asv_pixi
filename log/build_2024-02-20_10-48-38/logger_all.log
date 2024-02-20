@@ -1,0 +1,257 @@
+[0.623s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['C:\\Users\\edvar\\programming\\ros2_ws\\.pixi\\envs\\default\\Scripts\\colcon', 'build'][0m
+[0.624s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x000001E1FAE73AF0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x000001E1FAB84550>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x000001E1FAB84550>>)[0m
+[0.743s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.743s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.743s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.743s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.743s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.743s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.743s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in 'C:\Users\edvar\programming\ros2_ws'
+[0.743s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.743s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.744s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.767s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.767s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.767s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.767s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.767s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.767s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.767s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.767s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.768s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.768s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.768s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.768s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.768s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.768s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.769s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ROS-TCP-Endpoint) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ROS-TCP-Endpoint) by extension 'ignore'
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ROS-TCP-Endpoint) by extension 'ignore_ament_install'
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ROS-TCP-Endpoint) by extensions ['colcon_pkg']
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ROS-TCP-Endpoint) by extension 'colcon_pkg'
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ROS-TCP-Endpoint) by extensions ['colcon_meta']
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ROS-TCP-Endpoint) by extension 'colcon_meta'
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ROS-TCP-Endpoint) by extensions ['ros']
+[0.770s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ROS-TCP-Endpoint) by extension 'ros'
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\ROS-TCP-Endpoint' with type 'ros.ament_python' and name 'ros_tcp_endpoint'[0m
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_description) by extensions ['ignore', 'ignore_ament_install']
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_description) by extension 'ignore'
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_description) by extension 'ignore_ament_install'
+[0.778s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_description) by extensions ['colcon_pkg']
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_description) by extension 'colcon_pkg'
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_description) by extensions ['colcon_meta']
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_description) by extension 'colcon_meta'
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_description) by extensions ['ros']
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_description) by extension 'ros'
+[0.779s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\asv_description' with type 'ros.ament_cmake' and name 'asv_description'[0m
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_launch) by extension 'ignore'
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_launch) by extension 'ignore_ament_install'
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_launch) by extensions ['colcon_pkg']
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_launch) by extension 'colcon_pkg'
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_launch) by extensions ['colcon_meta']
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_launch) by extension 'colcon_meta'
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_launch) by extensions ['ros']
+[0.780s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_launch) by extension 'ros'
+[0.781s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\asv_launch' with type 'ros.ament_python' and name 'asv_launch'[0m
+[0.781s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_nav) by extension 'ignore'
+[0.781s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_nav) by extension 'ignore_ament_install'
+[0.782s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_nav) by extensions ['colcon_pkg']
+[0.782s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_nav) by extension 'colcon_pkg'
+[0.782s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_nav) by extensions ['colcon_meta']
+[0.782s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_nav) by extension 'colcon_meta'
+[0.782s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_nav) by extensions ['ros']
+[0.782s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\asv_nav) by extension 'ros'
+[0.783s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\asv_nav' with type 'ros.ament_python' and name 'asv_nav'[0m
+[0.783s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.783s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.783s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.783s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.783s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.868s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_description' build argument 'cmake_args' from command line to 'None'
+[0.868s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_description' build argument 'cmake_target' from command line to 'None'
+[0.868s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.868s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.868s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.868s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.868s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.868s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.869s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.869s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'asv_description' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\Users\\edvar\\programming\\ros2_ws\\build\\asv_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\Users\\edvar\\programming\\ros2_ws\\install\\asv_description', 'merge_install': False, 'path': 'C:\\Users\\edvar\\programming\\ros2_ws\\src\\asv_description', 'symlink_install': False, 'test_result_base': None}[0m
+[0.884s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_launch' build argument 'cmake_args' from command line to 'None'
+[0.884s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_launch' build argument 'cmake_target' from command line to 'None'
+[0.884s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.885s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'asv_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\Users\\edvar\\programming\\ros2_ws\\build\\asv_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\Users\\edvar\\programming\\ros2_ws\\install\\asv_launch', 'merge_install': False, 'path': 'C:\\Users\\edvar\\programming\\ros2_ws\\src\\asv_launch', 'symlink_install': False, 'test_result_base': None}[0m
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_nav' build argument 'cmake_args' from command line to 'None'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_nav' build argument 'cmake_target' from command line to 'None'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'asv_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.903s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'asv_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\Users\\edvar\\programming\\ros2_ws\\build\\asv_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\Users\\edvar\\programming\\ros2_ws\\install\\asv_nav', 'merge_install': False, 'path': 'C:\\Users\\edvar\\programming\\ros2_ws\\src\\asv_nav', 'symlink_install': False, 'test_result_base': None}[0m
+[0.922s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[0.922s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.922s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.922s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.922s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.922s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.922s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.922s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.922s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.922s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\Users\\edvar\\programming\\ros2_ws\\build\\ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\Users\\edvar\\programming\\ros2_ws\\install\\ros_tcp_endpoint', 'merge_install': False, 'path': 'C:\\Users\\edvar\\programming\\ros2_ws\\src\\ROS-TCP-Endpoint', 'symlink_install': False, 'test_result_base': None}[0m
+[0.938s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.956s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.956s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in 'C:\Users\edvar\programming\ros2_ws\src\asv_description' with build type 'ament_cmake'
+[0.956s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in 'C:\Users\edvar\programming\ros2_ws\src\asv_description'
+[0.974s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.sh': Not used on Windows systems
+[1.019s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\Users\edvar\programming\ros2_ws\src\asv_launch' with build type 'ament_python'
+[1.020s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('asv_launch', 'ament_prefix_path')
+[1.037s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\asv_launch\share\asv_launch\hook\ament_prefix_path.ps1'
+[1.038s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\asv_launch\share\asv_launch\hook\ament_prefix_path.bat'
+[1.039s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\edvar\programming\ros2_ws\install\asv_launch\share\asv_launch\hook\ament_prefix_path.dsv'
+[1.103s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\Users\edvar\programming\ros2_ws\src\asv_nav' with build type 'ament_python'
+[1.103s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('asv_nav', 'ament_prefix_path')
+[1.122s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\asv_nav\share\asv_nav\hook\ament_prefix_path.ps1'
+[1.123s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\asv_nav\share\asv_nav\hook\ament_prefix_path.bat'
+[1.124s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\edvar\programming\ros2_ws\install\asv_nav\share\asv_nav\hook\ament_prefix_path.dsv'
+[1.198s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\Users\edvar\programming\ros2_ws\src\ROS-TCP-Endpoint' with build type 'ament_python'
+[1.198s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[1.221s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\share\ros_tcp_endpoint\hook\ament_prefix_path.ps1'
+[1.223s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\share\ros_tcp_endpoint\hook\ament_prefix_path.bat'
+[1.224s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\share\ros_tcp_endpoint\hook\ament_prefix_path.dsv'
+[1.613s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\Users\edvar\programming\ros2_ws\src\asv_launch'
+[1.674s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\edvar\programming\ros2_ws\build\asv_description': CL=/MP CMAKE_PREFIX_PATH=C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\Library PIXI_PROMPT=(ros2_ws) C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\Library\bin\cmake.EXE --build C:\Users\edvar\programming\ros2_ws\build\asv_description --config Release[0m
+[2.015s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\Users\edvar\programming\ros2_ws\src\ROS-TCP-Endpoint'
+[2.370s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\Users\edvar\programming\ros2_ws\src\asv_nav'
+[2.428s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\edvar\programming\ros2_ws\build\asv_description' returned '0': CL=/MP CMAKE_PREFIX_PATH=C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\Library PIXI_PROMPT=(ros2_ws) C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\Library\bin\cmake.EXE --build C:\Users\edvar\programming\ros2_ws\build\asv_description --config Release[0m
+[2.458s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\edvar\programming\ros2_ws\build\asv_description': CMAKE_PREFIX_PATH=C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\Library PIXI_PROMPT=(ros2_ws) C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\Library\bin\cmake.EXE --install C:\Users\edvar\programming\ros2_ws\build\asv_description --config Release[0m
+[2.526s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(asv_description)
+[2.527s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\edvar\programming\ros2_ws\build\asv_description' returned '0': CMAKE_PREFIX_PATH=C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\Library PIXI_PROMPT=(ros2_ws) C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\Library\bin\cmake.EXE --install C:\Users\edvar\programming\ros2_ws\build\asv_description --config Release[0m
+[2.559s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_description' for CMake module files
+[2.560s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_description' for CMake config files
+[2.561s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('asv_description', 'cmake_prefix_path')
+[2.599s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\asv_description\share\asv_description\hook\cmake_prefix_path.ps1'
+[2.600s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\asv_description\share\asv_description\hook\cmake_prefix_path.bat'
+[2.601s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\edvar\programming\ros2_ws\install\asv_description\share\asv_description\hook\cmake_prefix_path.dsv'
+[2.602s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_description\bin'
+[2.602s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_description\bin'
+[2.602s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_description\lib\pkgconfig\asv_description.pc'
+[2.603s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_description\Lib\site-packages'
+[2.603s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_description\Scripts'
+[2.624s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\edvar\programming\ros2_ws\install\asv_description\share\asv_description\package.ps1'
+[2.625s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\edvar\programming\ros2_ws\install\asv_description\share\asv_description\package.bat'
+[2.627s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\Users\edvar\programming\ros2_ws\install\asv_description\share\asv_description\package.dsv'
+[2.628s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\Users\edvar\programming\ros2_ws\install\asv_description\share\colcon-core\packages\asv_description)
+[2.649s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(asv_description)
+[2.670s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_description' for CMake module files
+[2.672s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_description' for CMake config files
+[2.673s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('asv_description', 'cmake_prefix_path')
+[2.689s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\asv_description\share\asv_description\hook\cmake_prefix_path.ps1'
+[2.690s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\asv_description\share\asv_description\hook\cmake_prefix_path.bat'
+[2.691s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\edvar\programming\ros2_ws\install\asv_description\share\asv_description\hook\cmake_prefix_path.dsv'
+[2.691s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_description\bin'
+[2.691s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_description\bin'
+[2.691s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_description\lib\pkgconfig\asv_description.pc'
+[2.692s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_description\Lib\site-packages'
+[2.692s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_description\Scripts'
+[2.708s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\edvar\programming\ros2_ws\install\asv_description\share\asv_description\package.ps1'
+[2.709s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\edvar\programming\ros2_ws\install\asv_description\share\asv_description\package.bat'
+[2.710s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\Users\edvar\programming\ros2_ws\install\asv_description\share\asv_description\package.dsv'
+[2.710s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\Users\edvar\programming\ros2_ws\install\asv_description\share\colcon-core\packages\asv_description)
+[3.278s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\edvar\programming\ros2_ws\src\ROS-TCP-Endpoint': PIXI_PROMPT=(ros2_ws) PYTHONPATH=C:\Users\edvar\programming\ros2_ws\build\ros_tcp_endpoint\prefix_override;C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\Lib\site-packages;%PYTHONPATH% C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\python.exe setup.py egg_info --egg-base ..\..\build\ros_tcp_endpoint build --build-base C:\Users\edvar\programming\ros2_ws\build\ros_tcp_endpoint\build install --record C:\Users\edvar\programming\ros2_ws\build\ros_tcp_endpoint\install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed[0m
+[3.287s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\edvar\programming\ros2_ws\src\asv_launch': PIXI_PROMPT=(ros2_ws) PYTHONPATH=C:\Users\edvar\programming\ros2_ws\build\asv_launch\prefix_override;C:\Users\edvar\programming\ros2_ws\install\asv_launch\Lib\site-packages;%PYTHONPATH% C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\python.exe setup.py egg_info --egg-base ..\..\build\asv_launch build --build-base C:\Users\edvar\programming\ros2_ws\build\asv_launch\build install --record C:\Users\edvar\programming\ros2_ws\build\asv_launch\install.log --single-version-externally-managed[0m
+[3.511s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\Users\edvar\programming\ros2_ws\src\asv_nav': PIXI_PROMPT=(ros2_ws) PYTHONPATH=C:\Users\edvar\programming\ros2_ws\build\asv_nav\prefix_override;C:\Users\edvar\programming\ros2_ws\install\asv_nav\Lib\site-packages;%PYTHONPATH% C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\python.exe setup.py egg_info --egg-base ..\..\build\asv_nav build --build-base C:\Users\edvar\programming\ros2_ws\build\asv_nav\build install --record C:\Users\edvar\programming\ros2_ws\build\asv_nav\install.log --single-version-externally-managed[0m
+[4.090s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\edvar\programming\ros2_ws\src\asv_launch' returned '0': PIXI_PROMPT=(ros2_ws) PYTHONPATH=C:\Users\edvar\programming\ros2_ws\build\asv_launch\prefix_override;C:\Users\edvar\programming\ros2_ws\install\asv_launch\Lib\site-packages;%PYTHONPATH% C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\python.exe setup.py egg_info --egg-base ..\..\build\asv_launch build --build-base C:\Users\edvar\programming\ros2_ws\build\asv_launch\build install --record C:\Users\edvar\programming\ros2_ws\build\asv_launch\install.log --single-version-externally-managed[0m
+[4.106s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_launch' for CMake module files
+[4.106s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_launch' for CMake config files
+[4.108s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_launch\bin'
+[4.108s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_launch\bin'
+[4.108s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_launch\lib\pkgconfig\asv_launch.pc'
+[4.108s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_launch\Lib\site-packages'
+[4.108s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('asv_launch', 'pythonpath')
+[4.124s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\asv_launch\share\asv_launch\hook\pythonpath.ps1'
+[4.125s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\asv_launch\share\asv_launch\hook\pythonpath.bat'
+[4.125s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\edvar\programming\ros2_ws\install\asv_launch\share\asv_launch\hook\pythonpath.dsv'
+[4.126s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_launch\Scripts'
+[4.126s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(asv_launch)
+[4.141s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\edvar\programming\ros2_ws\install\asv_launch\share\asv_launch\package.ps1'
+[4.142s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\edvar\programming\ros2_ws\install\asv_launch\share\asv_launch\package.bat'
+[4.143s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\Users\edvar\programming\ros2_ws\install\asv_launch\share\asv_launch\package.dsv'
+[4.144s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\Users\edvar\programming\ros2_ws\install\asv_launch\share\colcon-core\packages\asv_launch)
+[4.199s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\edvar\programming\ros2_ws\src\ROS-TCP-Endpoint' returned '0': PIXI_PROMPT=(ros2_ws) PYTHONPATH=C:\Users\edvar\programming\ros2_ws\build\ros_tcp_endpoint\prefix_override;C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\Lib\site-packages;%PYTHONPATH% C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\python.exe setup.py egg_info --egg-base ..\..\build\ros_tcp_endpoint build --build-base C:\Users\edvar\programming\ros2_ws\build\ros_tcp_endpoint\build install --record C:\Users\edvar\programming\ros2_ws\build\ros_tcp_endpoint\install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed[0m
+[4.215s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint' for CMake module files
+[4.216s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint' for CMake config files
+[4.218s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\bin'
+[4.218s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\bin'
+[4.218s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\lib\pkgconfig\ros_tcp_endpoint.pc'
+[4.218s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\Lib\site-packages'
+[4.218s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[4.234s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\share\ros_tcp_endpoint\hook\pythonpath.ps1'
+[4.235s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\share\ros_tcp_endpoint\hook\pythonpath.bat'
+[4.236s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\share\ros_tcp_endpoint\hook\pythonpath.dsv'
+[4.236s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\Scripts'
+[4.237s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros_tcp_endpoint)
+[4.253s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\share\ros_tcp_endpoint\package.ps1'
+[4.254s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\share\ros_tcp_endpoint\package.bat'
+[4.255s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\share\ros_tcp_endpoint\package.dsv'
+[4.256s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\Users\edvar\programming\ros2_ws\install\ros_tcp_endpoint\share\colcon-core\packages\ros_tcp_endpoint)
+[4.299s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\Users\edvar\programming\ros2_ws\src\asv_nav' returned '0': PIXI_PROMPT=(ros2_ws) PYTHONPATH=C:\Users\edvar\programming\ros2_ws\build\asv_nav\prefix_override;C:\Users\edvar\programming\ros2_ws\install\asv_nav\Lib\site-packages;%PYTHONPATH% C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\python.exe setup.py egg_info --egg-base ..\..\build\asv_nav build --build-base C:\Users\edvar\programming\ros2_ws\build\asv_nav\build install --record C:\Users\edvar\programming\ros2_ws\build\asv_nav\install.log --single-version-externally-managed[0m
+[4.315s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_nav' for CMake module files
+[4.316s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_nav' for CMake config files
+[4.317s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_nav\bin'
+[4.317s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_nav\bin'
+[4.317s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_nav\lib\pkgconfig\asv_nav.pc'
+[4.317s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_nav\Lib\site-packages'
+[4.318s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('asv_nav', 'pythonpath')
+[4.334s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\asv_nav\share\asv_nav\hook\pythonpath.ps1'
+[4.335s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\Users\edvar\programming\ros2_ws\install\asv_nav\share\asv_nav\hook\pythonpath.bat'
+[4.335s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\Users\edvar\programming\ros2_ws\install\asv_nav\share\asv_nav\hook\pythonpath.dsv'
+[4.337s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\Users\edvar\programming\ros2_ws\install\asv_nav\Scripts'
+[4.337s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(asv_nav)
+[4.353s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\edvar\programming\ros2_ws\install\asv_nav\share\asv_nav\package.ps1'
+[4.354s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\Users\edvar\programming\ros2_ws\install\asv_nav\share\asv_nav\package.bat'
+[4.355s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\Users\edvar\programming\ros2_ws\install\asv_nav\share\asv_nav\package.dsv'
+[4.355s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\Users\edvar\programming\ros2_ws\install\asv_nav\share\colcon-core\packages\asv_nav)
+[4.356s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[4.356s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[4.376s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[4.377s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[4.377s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.377s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'win32'
+[9.408s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[9.424s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\Users\edvar\programming\ros2_ws\install\local_setup.ps1'
+[9.425s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\Users\edvar\programming\ros2_ws\install\_local_setup_util_ps1.py'
+[9.427s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\Users\edvar\programming\ros2_ws\install\setup.ps1'
+[9.444s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\Users\edvar\programming\ros2_ws\install\local_setup.bat'
+[9.445s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\Users\edvar\programming\ros2_ws\install\_local_setup_util_bat.py'
+[9.446s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\Users\edvar\programming\ros2_ws\install\setup.bat'

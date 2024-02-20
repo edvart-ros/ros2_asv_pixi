@@ -1,0 +1,35 @@
+[0.250s] Invoking command in 'C:\Users\edvar\programming\ros2_ws\build\asv_description': CMAKE_PREFIX_PATH=C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\Library PIXI_PROMPT=(ros2_ws) C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\Library\bin\cmake.EXE C:\Users\edvar\programming\ros2_ws\src\asv_description -DCMAKE_INSTALL_PREFIX=C:\Users\edvar\programming\ros2_ws\install\asv_description -G Visual Studio 17 2022
+[0.437s] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22000.
+[2.375s] -- The C compiler identification is MSVC 19.39.33519.0
+[3.172s] -- The CXX compiler identification is MSVC 19.39.33519.0
+[3.312s] -- Detecting C compiler ABI info
+[4.031s] -- Detecting C compiler ABI info - done
+[4.062s] -- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe - skipped
+[4.062s] -- Detecting C compile features
+[4.078s] -- Detecting C compile features - done
+[4.141s] -- Detecting CXX compiler ABI info
+[4.781s] -- Detecting CXX compiler ABI info - done
+[4.812s] -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe - skipped
+[4.812s] -- Detecting CXX compile features
+[4.828s] -- Detecting CXX compile features - done
+[4.859s] -- Found ament_cmake: 1.3.2 (C:/Users/edvar/programming/ros2_ws/.pixi/envs/default/Library/share/ament_cmake/cmake)
+[7.547s] -- Found Python3: C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0/python3.12.exe (found version "3.12.2") found components: Interpreter 
+[8.687s] CMake Error at CMakeLists.txt:5 (find_package):
+[8.687s]   By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has
+[8.687s]   asked CMake to find a package configuration file provided by "xacro", but
+[8.687s]   CMake did not find one.
+[8.687s] 
+[8.687s]   Could not find a package configuration file provided by "xacro" with any of
+[8.687s]   the following names:
+[8.687s] 
+[8.687s]     xacroConfig.cmake
+[8.687s]     xacro-config.cmake
+[8.687s] 
+[8.687s]   Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set
+[8.687s]   "xacro_DIR" to a directory containing one of the above files.  If "xacro"
+[8.687s]   provides a separate development package or SDK, be sure it has been
+[8.687s]   installed.
+[8.687s] 
+[8.687s] 
+[8.687s] -- Configuring incomplete, errors occurred!
+[8.719s] Invoked command in 'C:\Users\edvar\programming\ros2_ws\build\asv_description' returned '1': CMAKE_PREFIX_PATH=C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\Library PIXI_PROMPT=(ros2_ws) C:\Users\edvar\programming\ros2_ws\.pixi\envs\default\Library\bin\cmake.EXE C:\Users\edvar\programming\ros2_ws\src\asv_description -DCMAKE_INSTALL_PREFIX=C:\Users\edvar\programming\ros2_ws\install\asv_description -G Visual Studio 17 2022

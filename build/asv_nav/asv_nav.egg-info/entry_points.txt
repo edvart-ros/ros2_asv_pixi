@@ -1,0 +1,2 @@
+[console_scripts]
+odom_tf = asv_nav.odom_tf:main
